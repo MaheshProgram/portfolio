@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    width: 100%;
+    padding: 20px 5%;
+}
+
+.log {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: white
+}
+
+.classbar a {
+    text-decoration: none;
+    margin-left: 75px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.classbar a:hover,
+.classbar a.active {
+    color: aqua
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    justify-content: space-between;
+    padding: 20px 3%;
+}
+
+.contant {
+    max-width: 500px;
+}
+
+.contant h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.contant p {
+    font-size: 20px;
+    margin: 20px 0 40px 0;
+}
+
+.contant a {
+    font-size: 25px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    align-items: center;
+    border-style: solid;
+    border-color: white;
+    padding: 5px;
+}
+
+.contant a:hover {
+    background-color: red;
+}
+
+.profilePic {
+    background-image: url("1.png") no-repeat;
+    height: 50%;
+}
